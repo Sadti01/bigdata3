@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "app_function": "casas.a",
+        "aws_region": "us-east-1",
+        "project_name": "bigdata3",
+        "runtime": "python3.10",
+        "s3_bucket": "zappa-5bnhy8wer"
+        "apigateway_enabled": false,
+        "manage_roles": false,
+        "keep_warm": false,
+        "role_name": "LabRole",
+        "events": [
+            {
+                "function": "casas.py",
+                "expression": "cron(29 5 ? * THU *)"  // Ejecutar todos los días a las 8:00 UTC
+            }
+        ] 
+    }
+}
