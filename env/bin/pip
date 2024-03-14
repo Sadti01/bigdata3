@@ -1,4 +1,4 @@
-#!/home/ubuntu/environment/bigdata3/env/bin/python3
+#!/home/ubuntu/environment/bigdata3/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
